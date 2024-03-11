@@ -172,5 +172,55 @@ img {
     font-weight: bold;
     /* outline: red 1px solid; */
     font-size: 18px;
-
 }
+
+.cta-container {
+    background-color: #f9faf8;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    padding: 50px 200px;
+    display: flex;
+    gap: 200px;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-item {
+    color: #f9faf8;
+}
+
+.cta-item button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border:#f9faf8 solid 4px;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 250px;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.cta-main-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-secondary-text {
+    font-size: 15px;
+}
+
+.cta-right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    min-width: 200px;
+} 
