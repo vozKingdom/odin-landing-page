@@ -108,4 +108,6 @@ img {
 
 .underline-text {
     text-decoration: underline;
+    margin-left: 10px;
+    margin-right: 10px;
 }
