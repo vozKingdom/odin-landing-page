@@ -224,3 +224,10 @@ img {
     justify-content: center;
     min-width: 200px;
 } 
+
+footer {
+    color: #f9faf8;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
