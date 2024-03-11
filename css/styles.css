@@ -1,11 +1,16 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    background-color: #1f2937;
+
 }
 
 header {
-    color: #f9faf8;
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
@@ -23,10 +28,84 @@ ul {
 
 a {
     text-decoration: none;
-    color: #f9faf8;
+    color: #e5e7eb;
 }
 
 .logo {
+    color: #f9faf8;
     font-size: 24px;
+    font-weight: 900;
 }
 
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    height: 500px;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 600px;
+}
+
+.main-text {
+    color: #f9faf8;
+    margin: 0px;
+    padding: 0px;
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+    line-height: 2;
+    /* outline: red 1px solid; */
+}
+
+
+.hero-container button {
+    width: 200px;
+    padding: 1em;
+    flex: 0 0 auto;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+
+
+}
+
+img {
+    width: 550px;
+    height: 350px;
+}
+
+.showy-text {
+    font-weight: 1000;
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+.showy-text-secondary {
+    font-size: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.underline-text {
+    text-decoration: underline;
+}
