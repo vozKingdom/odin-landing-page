@@ -52,6 +52,7 @@ a {
     flex-direction: column;
     gap: 10px;
     width: 600px;
+    flex: 0 0 auto;
 }
 
 .main-text {
@@ -85,8 +86,6 @@ a {
     border: none;
     border-radius: 12px;
     cursor: pointer;
-
-
 }
 
 img {
@@ -110,4 +109,44 @@ img {
     text-decoration: underline;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.information-container {
+    background-color: #f9faf8;
+    color: #1f2937;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 600px;
+}
+
+.information-item-heading {
+    font-size: 36px;
+    font-weight: 900;
+ }
+
+.information-item-grids {
+    display: flex;
+    gap: 50px;
+
+}
+
+.information-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.grid {
+    border: #3882f6 solid 4px;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.grid-text {
+    width: 200px;
+    height: 200px;
 }
